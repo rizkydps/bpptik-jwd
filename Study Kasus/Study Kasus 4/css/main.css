@@ -1,0 +1,31 @@
+body {
+  background-color: #bbb;
+}
+
+.section-header .page-profile {
+  background-color: #da9cb1;
+  background-size: cover;
+}
+
+.section-header .page-profile h1 {
+  font-size: 34px;
+  color: #000;
+}
+
+.section-header .page-profile h2 {
+  font-size: 24px;
+}
+
+.section-header .page-profile h3 {
+  font-size: 16px;
+}
+
+.section-header .page-profile h4 {
+  font-size: 16px;
+}
+
+.section-header .page-form {
+  background-color: #fff;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

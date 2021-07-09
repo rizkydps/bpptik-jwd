@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Css file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col  page-profile">
+                    <h1 class="text-center">Profile Pelanggan</h1>
+                    <br />
+                    <div class="text-center">
+                        <img src="img/avatar.png" alt="...">
+                    </div>
+                    <br />
+                    <h2 class="text-center">Rizky DPS</h2>
+                    <h3 class="text-center">rzkydps@gmail.com</h3>
+                    <h4 class="text-center">User ID : <span style="color: #0112ff">1234<span>
+                    </h4>
+                </div>
+                <div class="col-8 page-form">
+                    <!--  -->
+                    <br />
+                    <form>
+                        <fieldset disabled>
+                            <div class="row mb-3">
+                                <label for="disabledTextInput" class="col-sm-2 col-form-label"><b>ID
+                                        Pembelian</b></label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="disabledTextInput" placeholder="6">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="disabledTextInput" class="col-sm-2 col-form-label"><b>Tanggal</b></label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="disabledTextInput"
+                                        placeholder="2021/07/09">
+                                </div>
+                            </div>
+                        </fieldset>
+
+
+                        <div class="row mb-3">
+                            <label for="formGroupExampleInput" class="col-sm-2 col-form-label"><b>Item</b></label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="formGroupExampleInput" class="col-sm-2 col-form-label"><b>Harga</b></label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <br />
+                    <h1>Data Pembelian</h1>
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID Pembelian</th>
+                                <th scope="col">Tanggal</th>
+                                <th scope="col">Item</th>
+                                <th scope="col">Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>2020/11/03</td>
+                                <td>Sepatu Merek A</td>
+                                <td>Rp. 200.000,-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>2021/01/03</td>
+                                <td>Tas Merek B</td>
+                                <td>Rp. 400.000,-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>2021/02/11</td>
+                                <td>Ikat Pinggang Merk C</td>
+                                <td>Rp. 50.000,-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>2020/11/03</td>
+                                <td>Topi Merek D</td>
+                                <td>Rp. 45.000,-</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>2020/11/03</td>
+                                <td>Tas</td>
+                                <td>Rp. 230.000,-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
