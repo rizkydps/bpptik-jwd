@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+body h1 {
+  background-color: #CCCCCC;
+}
+
+form {
+  display: inline-block;
+}
+
+form .buttonHasil {
+  background-color: #33FFFF;
+}
+/*# sourceMappingURL=style.css.map */
