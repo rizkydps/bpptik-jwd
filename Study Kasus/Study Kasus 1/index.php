@@ -6,13 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css dan js dari bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
 
     <title>Aplikasi Ticketing</title>
@@ -30,8 +27,7 @@
                 <form>
                     <div class="form-group">
                         <label for="maskapai">Maskapai</label>
-                        <input type="text" class="form-control form-control-sm" id="maskapai"
-                            aria-describedby="emailHelp">
+                        <input type="text" class="form-control form-control-sm" id="maskapai" aria-describedby="emailHelp">
                         <small id="emailHelp" class="form-text text-muted">di isikan nama maskapai Garuda Indonesia,
                             Lion Air, City link dll.</small>
                     </div>
@@ -108,13 +104,13 @@
     console.log(pajakBandara);
 
 
-    $(document).ready(function () {
+    $(document).ready(function() {
         //add dinamic dropdown bandara 
         let dropdown1 = $('#bandaraAsal');
         let dropdown2 = $('#bandaraTujuan');
         dropdown1.empty();
 
-        $.each(pajakBandara, function (key, entry) {
+        $.each(pajakBandara, function(key, entry) {
             dropdown1.append($('<option></option>').attr('value', entry.id).attr('data-pajak', entry
                 .pajak).text(
                 entry.bandara));
@@ -122,7 +118,7 @@
         //add dinamic dropdown 2
         dropdown2.empty();
 
-        $.each(pajakBandara, function (key, entry) {
+        $.each(pajakBandara, function(key, entry) {
             dropdown2.append($('<option></option>').attr('value', entry.id).attr('data-pajak', entry
                 .pajak).text(
                 entry.bandara));
@@ -135,7 +131,7 @@
         let lineNo = 1;
         //add to row
 
-        $('#btnProses').click(function () {
+        $('#btnProses').click(function() {
             //alert('button diklk');
             //pemanggilan fungsi menyembuyikan row data ksong
             hideDataKosong();
