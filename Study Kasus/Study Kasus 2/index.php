@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <?php
-            // col 1
+            
 
 
             $head1 = ['No' => 1, 'Gambar' => "img", 'Nama Barang' => "Barang A", 'Harga' => 12000, 'Stok' => 2, 'Total Harga' => 240000];
@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <?php
-            // col 2
+            
 
 
             $head2 = ['No' => 2, 'Gambar' => "img", 'Nama Barang' => "Barang B", 'Harga' => 50000, 'Stok' => 6, 'Total Harga' => 300000];
